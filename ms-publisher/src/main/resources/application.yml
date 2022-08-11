@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms-publisher
+
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+mq:
+  queues:
+    example-queue: example-queue
